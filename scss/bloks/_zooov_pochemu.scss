@@ -1,0 +1,50 @@
+
+.zooov_pochemu{
+    margin-bottom: 190px;
+}
+.zooov_pochemu_wrapper_titel{
+    margin-bottom: 63px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.zooov_pochemu_item{
+    max-width: 282px;
+}
+.zooov_pochemu_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zooov_pochemu_titel{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+}
+.zooov_pochemu_text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+}
+.zooov_pochemu_img{
+    width: 40px;
+    height: 40px;
+}
+@media screen and(max-width:1107px){
+    .zooov_pochemu_list{
+        flex-direction: column;
+    }
+    .zooov_pochemu_wrapper_titel{
+        text-align: center;
+    }
+}
+@media screen and(max-width:440px){
+    
+    .zooov_pochemu_wrapper_titel{
+        font-size: 30px;
+    }
+}

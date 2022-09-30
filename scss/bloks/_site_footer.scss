@@ -1,0 +1,191 @@
+.site_footer{
+    background-color: #961914;
+    max-width: 1400px;
+    margin: 0 auto  ;
+}
+.contact_strong{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.contact{
+    margin-top: 80px;
+}
+.contact_box{
+    margin-top: 110px;
+}
+.site_footer_box{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_text{
+    max-width: 302px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.contact_link{
+    margin-bottom: 30px;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.contact_link1{
+    color: #FFFFFF;
+    padding: 10px 16px;
+    background-color: rgb(7, 72, 72);
+    // opacity: 0.2;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.contact_link1::before{
+    display: inline-block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-image: url("../../img/WhatsappLogo.svg");
+    background-position-y: calc(+3px);
+    
+}
+.contact_link2{
+    padding: 10px 16px;
+    margin-top: 26px;
+    max-width: 188px;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF; 
+    background-color: rgb(7, 72, 72);
+    border-radius: 8px;
+}
+.contact_link2::before{
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("../../img/telegram.svg");
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-position-x: calc(-2px);
+    background-position-y:calc(+4px);
+}
+.contact_text1{
+   padding-bottom: 80px;
+    max-width: 302px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.ostalist::before{
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("../../img/ostalist.svg");
+    width: 110px;
+    height: 110px;
+    display: inline-block;
+}
+.ostalist{
+    display: flex;
+}
+.ostalist_wrapper{
+    display: flex;
+}
+.ostalist_titel{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.ostalist_text1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.inpu{
+    color:#FFFFFF;
+    padding: 10px 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+}
+
+
+.ostalist_wrapper_text{
+    padding-left: 15px;
+    padding-top: 8px;
+    max-width: 636px;
+    height: 122px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    border: 1px solid #FFF4F3;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+}
+
+
+.ostalist_wrapper_list{
+    display: flex;
+    // align-items: center;
+
+}
+.ostalist_wrapper_item{
+    max-width: 237px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.ostalist_wrapper_list_LINK{
+    width: 16px;
+    height: 16px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.ostalist_wrapper_box{
+    display: flex;
+    align-items: center;
+}
+.ostalist_wrapper_box1_link{
+    padding: 13px 53px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #EC7973;
+    background: #FFF4F3;
+    border-radius: 8px;
+}
+@media screen and(max-width:1000px) {
+    .site_footer_box{
+        flex-direction: column;
+    }
+}
+@media screen and(max-width:600px) {
+    .ostal_box{
+        max-width: 300px;
+    }
+    .ostalist_wrapper{
+        flex-direction: column;
+    }
+    .ostalist_wrapper_text{
+        max-width: 360px;
+    }
+    .ostalist_wrapper_list{
+        flex-direction: column;
+    }
+}

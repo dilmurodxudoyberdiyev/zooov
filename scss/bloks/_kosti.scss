@@ -1,0 +1,69 @@
+
+.kosti_container{
+    
+    background-color: #EAD1D0;
+}
+.kosti{
+    margin-bottom: 203px;
+}
+
+.kosti_list_titel{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 200%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.kosti_box2{
+    display: flex;
+ 
+}
+.kosti_content_box{
+    display: flex;
+}
+.dilya{
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 200%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.kosti_box1{
+    display: flex;
+}
+.kosti_box3{
+    width: 50%;
+}
+.kosti_box_list1{
+    margin-left: 80px;
+}
+@media screen and(max-width:890px){
+.kosti_content_box{
+    flex-direction: column;
+}
+.kosti_box1{
+    flex-direction: column;
+}
+.kosti_box2{
+    flex-direction: column;
+}
+.kosti_box_list1{
+    margin-left: 0;
+}
+}
+@media screen and(max-width:446px){
+    .kosti_content_box{
+        flex-direction: column;
+    }
+    .kosti_box1{
+        flex-direction: column;
+    }
+    .kosti_box2{
+        flex-direction: column;
+    }
+    .kosti_box_list1{
+        margin-left: 0;
+    }
+    }

@@ -1,0 +1,66 @@
+.hero{
+    background-image:url("../../img/sayt1.jpg");
+    background-repeat: no-repeat;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.hero_barf_wrapper{
+    max-width: 522px;
+    padding-bottom: 225px;
+    margin-bottom: 180px;
+}
+.hero_content_list{
+    display: flex;
+}
+.hero_content_item{
+    margin-right: 53px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero_barf_titel{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.hero_barf_text{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.hero_barf_link{
+    padding: 13px 42px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #961914;
+    border-radius: 8px;
+}
+@media screen and(max-width:573px) {    
+    .hero{
+       
+        max-width: 100%;
+        background-image: url("../../img/dilmurod.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 550px;
+
+    }
+    .hero_barf_titel{
+        font-size: 44px; 
+        max-width: 338px;   
+    }
+    .hero_barf_text{
+        max-width: 240px;
+        font-size: 18px;
+    }
+}

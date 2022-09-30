@@ -1,0 +1,123 @@
+.zooov{
+    margin-bottom: 80px;
+}
+.zooov_box{
+    margin-bottom: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zooov_titel{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.zooov_text{
+    max-width: 776px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+}
+.zooov_wrapper_img{
+    display: flex;
+    justify-content: space-between;
+}
+.zooov_wrapper_list{
+    display: flex;
+    justify-content: space-between;
+}
+.zooov_wrapper_titel{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+}
+.zooov_wrapper_item{
+    max-width: 280px;
+}
+.zooov_wrapper_text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: #9F9E9D;
+}
+.zooov_wrapperlist_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #434242;
+}
+.zoov_wrapper_text{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: #9F9E9D;
+}
+.zooov_wrapper_link{
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #961914;
+    border: 1px solid #961914;
+    border-radius: 8px;
+}
+@media screen and(max-width:1245px){
+.zooov_box{
+    flex-direction: column;
+}
+
+}
+@media screen and(max-width:1166px){
+    .zooov_wrapper_img{
+        flex-direction: column;
+       text-align: center;
+    }
+    }
+    @media screen and(max-width:811px){
+       .zooov_titel{
+        font-size: 30px;
+       }
+       .zooov_text{
+        font-size: 12px;
+        max-width: 600px;
+       }
+        }
+        @media screen and(max-width:615px){
+            .zooov_titel{
+             font-size: 30px;
+            }
+            .zooov_text{
+             font-size: 12px;
+             max-width: 360px;
+            }
+             }
+             @media screen and(max-width:400px){
+                .zooov_titel{
+                 font-size: 30px;
+                }
+                .zooov_text{
+                display: none;
+                }
+                 }
+    @media screen and(max-width:400px){
+        .zooov_wrapper_img{
+            flex-direction: column;
+           text-align: center;
+        }
+        }
+        @media screen and(max-width:966px){
+            .zooov_wrapper_list{
+                flex-direction: column;
+            }
+            }
+            @media screen and(max-width:400px){
+                .zooov_wrapper_list{
+                    flex-direction: column;
+                }
+                }

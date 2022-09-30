@@ -1,0 +1,66 @@
+.zooov_raschitat{
+    background-color: #EAD1D0;
+}
+.zooov1{
+    margin-bottom: 180px;
+}
+.zooov_raschitat_titel{
+    max-width: 705px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.zooov_raschitat_link{
+    padding-top: 13px;
+    padding-right: 42px;
+    padding-left: 42px;
+    padding-bottom: 13px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #961914;
+    border-radius: 8px;
+ }
+ .zooov_raschitat_box{
+    margin-left: 50px;
+    margin-right: 121px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ @media screen and(max-width:1060px){
+    .zooov_raschitat_box{
+        flex-direction: column;
+    }
+   }
+   @media screen and(max-width:893px){
+    
+       .zooov_raschitat_titel{
+        font-size: 22px;
+        max-width: 600px;
+       }
+    }
+    @media screen and(max-width:800px){
+    
+        .zooov_raschitat_titel{
+         font-size: 15px;
+         max-width: 600px;
+        }
+     }
+     @media screen and(max-width:430px){
+    
+        .zooov_raschitat_titel{
+
+         font-size: 15px;
+         max-width: 350px;
+        }
+        .zooov_raschitat_box{
+           align-items: center;
+        }
+     }
+    
